@@ -19,7 +19,13 @@ SVN INFORMATION:::
 	account to display special information based on arguments passed to the 
 	script.
 	
-3.) PERFORMANCE
+3.) REQUIREMENTS:
+	This system requires several other libraries to perform it's core functions:
+		* cs-content         http://sf.net/projects/cs-content
+		* cs-arraytopath     http://sf.net/projects/cs-arraytopath
+		* cs-phpxml          http://sf.net/projects/cs-phpxml
+
+4.) PERFORMANCE
 	CS-HitsTracker was built to run on slow or overburdened servers.  It is 
 	assumed that connections to the database, along with modifications and the 
 	insertion/manipulation of data, will be a very slow and cumbersome process 
