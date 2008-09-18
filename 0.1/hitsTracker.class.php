@@ -1,12 +1,12 @@
 <?php
 
-require_once(dirname(__FILE__) .'/cs-content/cs_globalFunctions.php');
-require_once(dirname(__FILE__) .'/cs-content/cs_fileSystemClass.php');
-require_once(dirname(__FILE__) .'/cs-content/cs_phpDB.php');
-require_once(dirname(__FILE__) .'/cs-arrayToPath/arrayToPathClass.php');
-require_once(dirname(__FILE__) .'/cs-phpxml/xmlCreatorClass.php');
-require_once(dirname(__FILE__) .'/cs-phpxml/xmlBuilderClass.php');
-require_once(dirname(__FILE__) .'/cs-phpxml/xmlParserClass.php');
+require_once(dirname(__FILE__) .'/../cs-content/cs_globalFunctions.php');
+require_once(dirname(__FILE__) .'/../cs-content/cs_fileSystemClass.php');
+require_once(dirname(__FILE__) .'/../cs-content/cs_phpDB.php');
+require_once(dirname(__FILE__) .'/../cs-arrayToPath/arrayToPathClass.php');
+require_once(dirname(__FILE__) .'/../cs-phpxml/xmlCreatorClass.php');
+require_once(dirname(__FILE__) .'/../cs-phpxml/xmlBuilderClass.php');
+require_once(dirname(__FILE__) .'/../cs-phpxml/xmlParserClass.php');
 
 
 
