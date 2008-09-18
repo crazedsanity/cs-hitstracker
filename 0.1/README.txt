@@ -45,3 +45,12 @@ SVN INFORMATION:::
 			- files must be fast to parse and understand
 			- files are created/updated/deleted by the admin system
 
+6.) CLIENT USAGE:
+	All a client has to do in order to use your installation of CS-HitsTracker for 
+	the purpose of logging hits is to put the image on their site. Example:
+	
+		<img src="http://your.site.com/php-bin/hitsTracker.php?acctName=axelFoley">
+	
+	The "acctName" is optional, and simply helps to associate the hit with a particular 
+	account name; if not provided, the account name is derived from the domain, if 
+	applicable.
