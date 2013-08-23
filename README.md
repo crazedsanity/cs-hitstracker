@@ -21,11 +21,13 @@ CS-HitsTracker was built to run on slow or overburdened servers.  It is assumed 
 a.) Logging hits quickly:
  * Hits are logged by creating new text files with hit information
  * shell script regularly parses, inserts, and deletes these files regularly parse and insert into the database.
+
 b.) Image files
  * stored as files on the server (not in DB)
  * default image is always assumed to be available
  * if special images are missing/unreadable, the default image is used.
  * no special generation/modification happens on-the-fly (files are static).
+
 c.) Special privilege/settings handling
  * special privileges are stored in an account-specific file on server
  * files must be fast to parse and understand
