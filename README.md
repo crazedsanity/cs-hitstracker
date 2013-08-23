@@ -1,14 +1,4 @@
-*** CS-HitsTracker ***
-
---------------------------------------------------------------
-SVN INFORMATION:::
- * SVN Signature::::::: $Id$
- * Last Author::::::::: $Author$ 
- * Current Revision:::: $Revision$ 
- * Repository Location: $HeadURL$ 
- * Last Updated:::::::: $Date$
---------------------------------------------------------------
- 
+## CS-HitsTracker
 
 
 1.) LICENSE: see the LICENSE file.
